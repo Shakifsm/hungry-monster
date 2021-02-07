@@ -1,0 +1,123 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  font-family: "Roboto", sans-serif;
+}
+.container {
+  margin-right: 70px;
+  height: 150px;
+  width: 100%;
+}
+
+.nav-bar {
+  float: right;
+  margin-top: 10px;
+  margin-right: 80px;
+}
+
+.nav-bar a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 24px 26px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.nav-bar a:hover {
+  color: tomato;
+}
+.logo {
+  float: left;
+  margin: 20px 90px;
+  padding: 5px;
+  cursor: pointer;
+}
+.logo img {
+  width: 70px;
+  height: 70px;
+}
+
+.search-box {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+#search-input {
+  height: 40px;
+  width: 400px;
+  padding-left: 10px;
+  background-color: white;
+  border: 1px solid gray;
+  border-radius: 10px;
+  outline: none;
+}
+#search-btn {
+  width: 80px;
+  color: white;
+  background-color: tomato;
+  border: 1px solid tomato;
+  border-radius: 5px;
+  margin-left: 2px;
+  cursor: pointer;
+  outline: none;
+}
+
+.title {
+  margin-left: 20px;
+}
+
+.meal-img img {
+  width: 100px;
+  margin: 0 auto;
+  padding-bottom: 10px;
+}
+.meal-result {
+  width: 500px;
+}
+.meal-item {
+  width: 300px;
+  height: 200px;
+
+  cursor: pointer;
+}
+.meal-item a {
+  text-decoration: none;
+  color: tomato;
+}
+#meal {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  margin: 50px 0px 0px 200px;
+}
+.meal-info img {
+  width: 300px;
+  height: 200px;
+  margin-right: 40px;
+  border: 4px solid #fff;
+  border-radius: 2px;
+}
+.meal-info {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 100px 0px;
+}
+.meal-ingredient h2 {
+  margin-bottom: 20px;
+}
+.meal-info h1 {
+  margin: 0px 40px 0px 40px;
+}
+.meal-ingredient ul {
+  list-style-type: none;
+}
+.meal-ingredient ul li {
+  border: 1px solid #ededed;
+  border-radius: 5px;
+  background-color: tomato;
+  display: inline-block;
+  padding: 4px;
+}
